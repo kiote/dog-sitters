@@ -37,3 +37,1843 @@ Started GET "/" for 127.0.0.1 at 2015-02-09 18:23:06 +0300
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.8ms)
 Completed 200 OK in 14ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-02-10 15:03:18 +0300
+
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.0ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-10 15:03:29 +0300
+
+NoMethodError (undefined method `action' for DogsitterLandingController:Class):
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.0ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-10 15:03:59 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (couldn't find file 'turbolinks'
+  (in /Users/kiote/www/dog-sitters/app/assets/javascripts/application.js:15)):
+    3: <head>
+    4:   <title>DogSitters</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___509007197702211657_70119017195860'
+
+
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-10 15:04:16 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-10 15:04:16 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-10 15:04:16 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-10 15:04:16 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-10 15:04:16 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-10 15:21:25 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-10 15:21:25 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-10 15:21:25 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-10 15:21:25 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-10 15:21:25 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-10 15:47:31 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-10 15:47:31 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-10 15:47:31 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-10 15:47:31 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-10 15:47:31 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:19:11 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 79ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:19:12 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:19:12 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:19:12 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:19:12 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:28:22 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:28:22 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:28:22 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:28:22 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:28:22 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:28:25 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:28:25 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:28:25 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:28:25 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:28:25 +0300
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2015-02-13 17:28:44 +0300
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2015-02-13 17:32:13 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:32:18 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:32:18 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:32:18 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:32:18 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:32:18 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:32:54 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:32:54 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:32:54 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:32:54 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:32:54 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:32:56 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 20ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:32:56 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:32:56 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:32:56 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:32:56 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:33:20 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:20 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:33:20 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:20 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:20 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:33:35 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:33:35 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:35 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:35 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:35 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:33:47 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:47 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:33:47 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:47 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:47 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:33:58 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 29ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:58 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:58 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:33:58 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:33:58 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:35:35 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:35:36 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:35:36 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:35:36 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:35:36 +0300
+
+
+Started GET "/assets/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:35:36 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/dog.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.3ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:35:37 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:35:37 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:35:37 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:35:37 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:35:37 +0300
+
+
+Started GET "/assets/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:35:37 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/dog.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:35:54 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:35:54 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:35:54 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:35:54 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:35:54 +0300
+
+
+Started GET "/assets/assets/images/dog.jpg" for 127.0.0.1 at 2015-02-13 17:35:54 +0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/assets/images/dog.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.8ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:36:44 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:36:44 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:36:44 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:36:44 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:36:44 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:36:44 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:36:58 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:36:58 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:36:58 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:36:58 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:36:58 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:37:00 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:37:00 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:00 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:00 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:00 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:37:09 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:37:09 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:09 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:09 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:09 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:37:17 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:37:17 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:17 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:17 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:17 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:37:17 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:37:26 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:37:26 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:26 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:26 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:26 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:37:26 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:37:31 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:37:32 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:32 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:32 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:37:32 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:38:10 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:38:10 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:38:10 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:38:10 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:38:10 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:38:10 +0300
+
+
+Started GET "/images/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:38:19 +0300
+
+ActionController::RoutingError (No route matches [GET] "/images/assets/dog.jpg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/kiote/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:38:32 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:38:32 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:38:32 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:38:32 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:38:32 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:38:32 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:41:19 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 91ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:41:20 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:41:20 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:41:20 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:41:20 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:41:20 +0300
+
+
+Started GET "/assets/rsz_dog.jpg" for 127.0.0.1 at 2015-02-13 17:41:25 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:41:42 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:41:42 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:41:42 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:41:42 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:41:42 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:41:42 +0300
+
+
+Started GET "/assets/rsz_dog.jpg" for 127.0.0.1 at 2015-02-13 17:41:46 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:45:29 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 175ms (Views: 173.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:45:29 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:45:29 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:45:29 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:45:29 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:45:29 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:46:52 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:46:52 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:46:52 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:46:52 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:46:52 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:46:52 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:48:45 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (Invalid CSS after "...l, sans-serif; ": expected "}", was "!important;"
+  (in /Users/kiote/www/dog-sitters/app/assets/stylesheets/application.scss:2)):
+    3: <head>
+    4:   <title>DogSitters</title>
+    5:   <meta name="viewport" content="width=device-width, initial-scale=1" />
+    6:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    7:   <%= javascript_include_tag 'application' %>
+    8:   <%= csrf_meta_tags %>
+    9: 
+  app/assets/stylesheets/application.scss:2
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__545569988003101171_70204838799420'
+
+
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/kiote/.rvm/gems/ruby-2.1.4/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:48:56 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:48:56 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:48:56 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:48:56 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:48:56 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:48:56 +0300
+
+
+Started GET "/assets/rsz_dog.jpg" for 127.0.0.1 at 2015-02-13 17:49:08 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:50:15 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:50:15 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:50:15 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:50:15 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:50:15 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:50:15 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 17:51:41 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 80ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 17:51:42 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 17:51:42 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 17:51:42 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 17:51:42 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 17:51:42 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:08:08 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:08:08 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:08:08 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:08:08 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:08:08 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:08:08 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:08:46 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:08:46 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:08:46 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:08:46 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:08:46 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:08:46 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:09:05 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:09:05 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:05 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:05 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:05 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:09:05 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:09:26 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:09:26 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:26 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:26 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:26 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:09:27 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:09:49 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:09:49 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:49 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:49 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:49 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:09:50 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:09:57 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:09:57 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:57 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:57 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:09:57 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:09:57 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:10:15 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:10:15 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:10:15 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:10:15 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:10:15 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:10:15 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:11:17 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:11:17 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:11:17 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:11:17 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:11:17 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:11:18 +0300
+
+
+Started GET "/assets/rsz_dog.jpg" for 127.0.0.1 at 2015-02-13 18:11:23 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:14:16 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:14:16 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:14:16 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:14:16 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:14:16 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:14:16 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:16:20 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:16:20 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:16:20 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:16:20 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:16:20 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:16:21 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:18:31 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:18:31 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:18:31 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:18:31 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:18:31 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:18:31 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:19:36 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 92ms (Views: 91.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:19:36 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:19:36 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:19:36 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:19:36 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:19:36 +0300
+
+
+Started GET "/assets/rsz_dog.jpg" for 127.0.0.1 at 2015-02-13 18:19:54 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:20:23 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:20:23 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:20:23 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:20:23 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:20:23 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:20:23 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:21:15 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:21:15 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:21:15 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:21:15 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:21:15 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:21:15 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:21:25 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 77ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:21:25 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:21:25 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:21:25 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:21:25 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:21:25 +0300
+
+
+Started GET "/assets/rsz_dog.jpg" for 127.0.0.1 at 2015-02-13 18:21:42 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:22:34 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:22:34 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:22:34 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:22:34 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:22:34 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:22:34 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:23:10 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:23:10 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:23:10 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:23:10 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:23:10 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:23:10 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:23:38 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 52ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:23:38 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:23:38 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:23:38 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:23:38 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:23:38 +0300
+
+
+Started GET "/assets/rsz_dog.jpg" for 127.0.0.1 at 2015-02-13 18:23:45 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:25:05 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 68ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:25:05 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:25:05 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:25:05 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:25:05 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:25:06 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:25:16 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 58ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:25:16 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:25:16 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:25:16 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:25:16 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:25:16 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:25:24 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 84ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:25:24 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:25:24 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:25:24 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:25:24 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:25:24 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:26:53 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:26:53 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:26:53 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:26:53 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:26:53 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:26:53 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:27:14 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 45ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:27:14 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:27:14 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:27:14 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:27:14 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:27:14 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:29:07 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 117ms (Views: 116.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:29:08 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:29:08 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:29:08 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:29:08 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:29:08 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:32:26 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 65ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:32:26 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:32:26 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:32:26 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:32:26 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:32:26 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:34:03 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:34:03 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:03 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:03 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:03 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:34:04 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:34:18 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:34:18 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:18 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:18 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:18 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:34:18 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:34:40 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:34:40 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:40 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:40 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:40 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:34:40 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:34:57 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:58 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:34:58 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:58 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:34:58 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:34:58 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:36:27 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 50ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:36:27 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:27 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:27 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:27 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:36:28 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:36:30 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:36:30 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:30 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:30 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:30 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:36:30 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:36:43 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:36:43 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:43 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:43 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:43 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:36:43 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:36:56 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:56 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:56 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:36:56 +0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:36:56 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:36:56 +0300
+
+
+Started GET "/assets/rsz_dog.jpg" for 127.0.0.1 at 2015-02-13 18:37:01 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:38:05 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 48ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:38:05 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:38:05 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:38:05 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:38:05 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:38:06 +0300
+
+
+Started GET "/assets/rsz_dog.jpg" for 127.0.0.1 at 2015-02-13 18:38:10 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:38:39 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:38:39 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:38:39 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:38:39 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:38:39 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:38:39 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:38:47 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:38:48 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:38:48 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:38:48 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:38:48 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:38:48 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:40:00 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:40:00 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:00 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:00 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:00 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:40:00 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:40:19 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:40:19 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:19 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:19 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:19 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:40:19 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:40:28 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:40:28 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:28 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:28 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:28 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:40:28 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:40:40 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:40:41 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:41 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:41 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:41 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:40:41 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:40:54 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 55ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:40:54 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:54 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:54 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:40:54 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:40:55 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:41:04 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:41:04 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:41:04 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:41:04 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:41:04 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:41:04 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:41:10 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:41:10 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:41:10 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:41:10 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:41:10 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:41:10 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-13 18:41:16 +0300
+Processing by DogsitterLandingController#index as HTML
+  Rendered dogsitter_landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-13 18:41:16 +0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-13 18:41:16 +0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-13 18:41:16 +0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-13 18:41:16 +0300
+
+
+Started GET "/assets/dog.jpg" for 127.0.0.1 at 2015-02-13 18:41:16 +0300
