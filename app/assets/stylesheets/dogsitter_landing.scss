@@ -2,27 +2,43 @@ body {
   color: #445577;
 }
 
-.info {
+.info, .scare {
   margin-left: 33%;
   padding: 1% 3% 3% 3%;
   background-color: #DDEEEE;
-  opacity: 0.5;
-
-  .header, .body, .email {
-    
-  }
+  opacity: 0.8;
 
   .body {
     h1 {
-      font-size: 1.9rem;
+      font-size: 1.7rem;
       line-height: 2rem;
-    }
-  }
-
-  .header {
-    h2 {
-      font-size: 1.6rem;
     }
   }
 }
 
+.info {
+  ul {
+    list-style-image: url('circle-check2.png');
+  }
+}
+
+.scare {
+  color: #BFC9CC;
+  margin-top: 1%;
+  background-color: #45353E;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    li {
+      padding-right: 1%;
+    }
+  }
+
+  .note {
+    font-size: 0.8rem;
+    b {
+      font-size: 0.8rem;
+    }
+  }
+}
