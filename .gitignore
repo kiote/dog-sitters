@@ -1,4 +1,4 @@
 lib
 .DS_Store
 tmp
-log
+log/*

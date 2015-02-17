@@ -1,8 +1,10 @@
-@import 'dogsitter_landing';
+@import "dogsitter_landing";
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 * {
   font-family: Helvetica, Arial, sans-serif !important;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   line-height: 1.6rem;
 }
 
