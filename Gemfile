@@ -23,7 +23,7 @@ gem 'jquery-rails'
 # validate email address
 gem 'email_validator'
 
-group: :development do
+group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'pry'
